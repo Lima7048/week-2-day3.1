@@ -1,0 +1,23 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.parent {
+  color: aquamarine;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) repeat(2, 0) 1fr;
+  grid-template-rows: repeat(2, 1fr) repeat(2, 0fr) 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 3 / 1 / 5 / 4;
+}
+.div2 {
+  grid-area: 3 / 3 / 4 / 4;
+}
